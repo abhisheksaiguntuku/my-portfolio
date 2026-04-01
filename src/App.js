@@ -14,7 +14,7 @@ function App() {
         <div>
           <span onClick={() => setShowProjects(false)}>Home</span>
           <span onClick={() => setShowProjects(true)}>Projects</span>
-          <span onClick={() => window.open("https://www.linkedin.com/in/abhishek-sai-guntuku-712523297/", "_blank")}>
+          <span onClick={() => window.open("https://www.linkedin.com/in/abhishek-sai-guntuku-712523297/", "_blank", "noopener,noreferrer")}>
             Contact
           </span>
         </div>
