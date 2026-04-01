@@ -36,7 +36,7 @@ function App() {
       {/* Projects Section */}
       {showProjects && (
         <section className="projects">
-          <h2>My Projects</h2>
+          <h2>My Projects 🚀</h2>
 
           <div className="card">
             <h3>AURORA</h3>
