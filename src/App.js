@@ -49,7 +49,7 @@ function App() {
             <p>Offline file sharing system using WLAN</p>
             <a href="https://github.com/abhisheksaiguntuku/wave-cast" target="_blank" rel="noreferrer">GitHub</a>
             <br />
-            <a href="https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_python-flask-networking-activity-7429943739214807041-b7t3" target="_blank">
+            <a href="https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_python-flask-networking-activity-7429943739214807041-b7t3" target="_blank" rel="noreferrer">
               LinkedIn Demo
             </a>
           </div>
