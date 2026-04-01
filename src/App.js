@@ -41,13 +41,13 @@ function App() {
           <div className="card">
             <h3>AURORA</h3>
             <p>Smart Translator Device with IoT + Web UI</p>
-            <a href="https://abhi897shek.github.io/AURORA/" target="_blank">Live Demo</a>
+            <a href="https://abhi897shek.github.io/AURORA/" target="_blank" rel="noreferrer">Live Demo</a>
           </div>
 
           <div className="card">
             <h3>WaveCast</h3>
             <p>Offline file sharing system using WLAN</p>
-            <a href="https://github.com/abhisheksaiguntuku/wave-cast" target="_blank">GitHub</a>
+            <a href="https://github.com/abhisheksaiguntuku/wave-cast" target="_blank" rel="noreferrer">GitHub</a>
             <br />
             <a href="https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_python-flask-networking-activity-7429943739214807041-b7t3" target="_blank">
               LinkedIn Demo
@@ -57,7 +57,7 @@ function App() {
           <div className="card">
             <h3>StudentHelperAI</h3>
             <p>Chrome extension for automation</p>
-            <a href="https://github.com/abhisheksaiguntuku/StudentHelperAI" target="_blank">GitHub</a>
+            <a href="https://github.com/abhisheksaiguntuku/StudentHelperAI" target="_blank" rel="noreferrer">GitHub</a>
           </div>
 
         </section>
@@ -66,9 +66,9 @@ function App() {
       {/* Footer */}
       <footer className="contact">
         <h3>Connect with me</h3>
-        <a href="https://github.com/abhisheksaiguntuku" target="_blank">GitHub</a>
+        <a href="https://github.com/abhisheksaiguntuku" target="_blank" rel="noreferrer">GitHub</a>
         <br />
-        <a href="https://www.linkedin.com/in/abhishek-sai-guntuku-712523297/" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/abhishek-sai-guntuku-712523297/" target="_blank" rel="noreferrer">LinkedIn</a>
       </footer>
 
     </div>
