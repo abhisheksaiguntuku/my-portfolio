@@ -63,7 +63,7 @@ function App() {
       description: 'A responsive AI application generating modern, highly functional interior room layouts and minimalist architectural concepts with instant visual renderings.',
       category: 'flagship',
       tech: ['React', 'CSS', 'AI APIs', 'Vercel'],
-      link: 'https://virtual-builder.vercel.app', // placeholder or real if exists
+      link: 'https://virtual-builder.vercel.app',
       github: 'https://github.com/abhisheksaiguntuku/virtual-builder',
       flagship: true
     },
@@ -85,7 +85,7 @@ function App() {
       description: 'A modern Chrome Extension that automates web activities and provides AI-driven explanations for students. Simplifies learning pipelines and automates routine queries.',
       category: 'utility',
       tech: ['JavaScript', 'Chrome Extension API', 'HTML5', 'CSS3'],
-      link: 'https://github.com/abhisheksaiguntuku/StudentHelperAI',
+      link: 'https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_ai-artificialintelligence-edtech-activity-7454040246293278720-frjf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfNZj4BJF5sXPULml9CmEkQ10VJW_CTdKE',
       github: 'https://github.com/abhisheksaiguntuku/StudentHelperAI'
     },
     {
@@ -100,11 +100,11 @@ function App() {
     },
     {
       id: 'wavecast',
-      title: 'WaveCast GPS',
-      subtitle: 'Offline GPS Tracking & Network System',
-      description: 'Real-time location broadcasting and offline messaging platform utilizing local WLAN connections, GNSS sensors, and a lightweight web-based interface.',
+      title: 'WaveCast',
+      subtitle: 'File Transmission & Synchronization System over WLAN',
+      description: 'A lightweight file transmission and real-time synchronization system designed to work completely offline without internet over local Wi-Fi (WLAN). Enables host discovery via UDP Broadcast, REST APIs, HTTP file transfer, and version control via file hashing.',
       category: 'iot',
-      tech: ['Python', 'Flask', 'GPS/GNSS', 'Networking', 'WLAN'],
+      tech: ['Python', 'Flask', 'UDP Broadcast', 'REST APIs', 'WLAN', 'Networking'],
       link: 'https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_python-flask-networking-activity-7429943739214807041-b7t3',
       github: 'https://github.com/abhisheksaiguntuku/wave-cast'
     },
@@ -115,18 +115,8 @@ function App() {
       description: 'Highly responsive computer vision system using a custom deep learning classifier to detect proper mask-wearing in real-time camera streams.',
       category: 'ml',
       tech: ['Python', 'OpenCV', 'TensorFlow', 'Keras'],
-      link: 'https://github.com/abhisheksaiguntuku/Face-Mask-Detection',
-      github: 'https://github.com/abhisheksaiguntuku'
-    },
-    {
-      id: 'diabetes',
-      title: 'Diabetes Predictor',
-      subtitle: 'ML Diagnostics System',
-      description: 'A predictive medical model using classification algorithms (Logistic Regression) to analyze demographic and clinical metrics for diabetes risk.',
-      category: 'ml',
-      tech: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn'],
-      link: 'https://github.com/abhisheksaiguntuku',
-      github: 'https://github.com/abhisheksaiguntuku'
+      link: null,
+      github: 'https://github.com/abhisheksaiguntuku/face-mask-detector'
     }
   ];
 
@@ -438,22 +428,26 @@ function App() {
               </div>
 
               <div className="project-actions">
-                <a 
-                  href={project.github} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-action-link"
-                >
-                  <GithubIcon size={16} /> Code
-                </a>
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-action-link primary-action"
-                >
-                  <ExternalLink size={16} /> Launch Demo
-                </a>
+                {project.github && (
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-action-link"
+                  >
+                    <GithubIcon size={16} /> Code
+                  </a>
+                )}
+                {project.link && (
+                  <a 
+                    href={project.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-action-link primary-action"
+                  >
+                    <ExternalLink size={16} /> Launch Demo
+                  </a>
+                )}
               </div>
             </div>
           ))}
