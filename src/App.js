@@ -201,7 +201,7 @@ function App() {
         <div className="about-console-grid">
           <div className="about-text-content">
             <p>
-              I am a passionate **Computer Science Engineering Student** at **Lendi Institute of Engineering and Technology** (Graduating 2027) with a deep-rooted interest in building the bridge between intelligent software and physical hardware. 
+              I am a passionate <strong>Computer Science Engineering Student</strong> at <strong>Lendi Institute of Engineering and Technology</strong> (Graduating 2027) with a deep-rooted interest in building the bridge between intelligent software and physical hardware. 
             </p>
             <p>
               Whether it is orchestrating scalable React applications, optimizing Natural Language Processing models on the cloud, or programming microcontrollers with GPIO protocols, I treat coding as a form of craftsmanship. 
