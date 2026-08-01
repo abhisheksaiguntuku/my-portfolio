@@ -63,8 +63,8 @@ function App() {
       description: 'An end-to-end AI-powered vehicle identification system built for Qubitedge Global Services. Employs YOLOv8 for object detection, OpenCV for plate cropping, and EasyOCR with a rule-based correction layer to improve character recognition accuracy (e.g. 2 ↔ Z and 6 ↔ G). Logs results to CSV.',
       category: 'ml',
       tech: ['Python', 'YOLOv8', 'EasyOCR', 'OpenCV', 'Flask', 'Git'],
-      link: null,
-      github: 'https://github.com/abhisheksaiguntuku'
+      link: 'https://lnkd.in/p/ggMhYAKn',
+      github: 'https://github.com/abhisheksaiguntuku/Vehicle-Number-Plate-Detection'
     },
     {
       id: 'virtual-builder',
@@ -223,14 +223,14 @@ function App() {
               <li>
                 <strong>Development Intern at Elewayte:</strong> Strengthened core skills in Python, OOP, and data structures by automating complex file-handling tasks and processing structured data.
               </li>
-              <li>
+              <li style={{ borderLeft: '3px solid var(--color-sky)', paddingLeft: '0.6rem', marginLeft: '-0.9rem', listStyleType: 'none', background: 'rgba(14, 165, 233, 0.05)' }}>
                 <strong>Certified SAP ABAP Cloud Developer (Earned Aug 2026):</strong> Certified in modern ABAP Cloud, proving capability in developing upgrade-stable enterprise extensions.
               </li>
             </ul>
             <p>
               Rather than just learning theory, I focus on building functional products that solve real-world problems. I leverage modern AI and computer vision tools to design, build, and deploy full-stack systems from scratch.
             </p>
-            <p style={{ marginTop: '0.5rem' }}>
+            <p style={{ marginTop: '0.5rem', borderLeft: '3px solid var(--color-sky)', paddingLeft: '0.6rem', background: 'rgba(14, 165, 233, 0.03)' }}>
               🏆 <strong>Professional Certifications:</strong><br />
               • SAP Certified - Back-End Developer - ABAP Cloud (<a href="https://credly.com/badges/5ee14d6b-acde-4ec9-9b7f-f5364c999f93" target="_blank" rel="noreferrer" style={{color: 'var(--color-sky)', textDecoration: 'underline'}}>Credly Verification Badge</a>)
             </p>
