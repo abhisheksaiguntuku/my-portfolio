@@ -57,10 +57,20 @@ function App() {
   // Projects data
   const projects = [
     {
+      id: 'vehicle-plate',
+      title: 'Vehicle Number Plate Detection System',
+      subtitle: 'AI-Powered Computer Vision Capstone Project',
+      description: 'An end-to-end AI-powered vehicle identification system built for Qubitedge Global Services. Employs YOLOv8 for object detection, OpenCV for plate cropping, and EasyOCR with a rule-based correction layer to improve character recognition accuracy (e.g. 2 ↔ Z and 6 ↔ G). Logs results to CSV.',
+      category: 'ml',
+      tech: ['Python', 'YOLOv8', 'EasyOCR', 'OpenCV', 'Flask', 'Git'],
+      link: null,
+      github: 'https://github.com/abhisheksaiguntuku'
+    },
+    {
       id: 'virtual-builder',
-      title: 'Virtual Builder',
+      title: 'Virtual Builder (Ghar Bano AI)',
       subtitle: 'AI-Powered Architectural Design Tool',
-      description: 'A responsive AI application generating modern, highly functional interior room layouts and minimalist architectural concepts with instant visual renderings.',
+      description: 'A responsive AI application generating modern, highly functional interior room layouts and minimalist architectural concepts with instant visual renderings. Features automated cost calculations and Vastu layout recommendations.',
       category: 'flagship',
       tech: ['React', 'CSS', 'AI APIs', 'Vercel'],
       link: 'https://virtual-builder.vercel.app',
@@ -82,7 +92,7 @@ function App() {
       id: 'student-helper',
       title: 'Student Helper AI',
       subtitle: 'Task Automation Chrome Extension',
-      description: 'A modern Chrome Extension that automates web activities and provides AI-driven explanations for students. Simplifies learning pipelines and automates routine queries.',
+      description: 'A custom Chrome Extension built with Gemini/Groq APIs to assist with workflows on strict/locked sites, automate web activities, and provide inline text translations.',
       category: 'utility',
       tech: ['JavaScript', 'Chrome Extension API', 'HTML5', 'CSS3'],
       link: 'https://www.linkedin.com/posts/abhishek-sai-guntuku-712523297_ai-artificialintelligence-edtech-activity-7454040246293278720-frjf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEfNZj4BJF5sXPULml9CmEkQ10VJW_CTdKE',
@@ -201,21 +211,29 @@ function App() {
         <div className="about-console-grid">
           <div className="about-text-content">
             <p>
-              I am a passionate <strong>Computer Science Engineering Student</strong> at <strong>Lendi Institute of Engineering and Technology</strong> (Graduating 2027) with a deep-rooted interest in building the bridge between intelligent software and physical hardware. 
+              I am a Computer Science BTech student at <strong>Lendi Institute of Engineering and Technology (LIET)</strong>, graduating in May 2027. I specialize in building full-stack AI-integrated applications, enterprise backend architectures, and IoT systems.
             </p>
             <p>
-              Whether it is orchestrating scalable React applications, optimizing Natural Language Processing models on the cloud, or programming microcontrollers with GPIO protocols, I treat coding as a form of craftsmanship. 
+              My academic foundation is backed by hands-on industry experience:
             </p>
-            <div className="stats-mini-grid">
-              <div className="stat-card">
-                <h3>Class of</h3>
-                <p>2027</p>
-              </div>
-              <div className="stat-card">
-                <h3>Tech Focus</h3>
-                <p>Full-Stack / AI / IoT</p>
-              </div>
-            </div>
+            <ul style={{ paddingLeft: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', listStyleType: 'disc' }}>
+              <li>
+                <strong>Applied AI & Data Science Intern at Qubitedge Global Services:</strong> Worked as part of Team Legacy to build end-to-end AI and computer vision solutions, culminating in a custom object detection capstone project.
+              </li>
+              <li>
+                <strong>Development Intern at Elewayte:</strong> Strengthened core skills in Python, OOP, and data structures by automating complex file-handling tasks and processing structured data.
+              </li>
+              <li>
+                <strong>Certified SAP ABAP Cloud Developer (Earned Aug 2026):</strong> Certified in modern ABAP Cloud, proving capability in developing upgrade-stable enterprise extensions.
+              </li>
+            </ul>
+            <p>
+              Rather than just learning theory, I focus on building functional products that solve real-world problems. I leverage modern AI and computer vision tools to design, build, and deploy full-stack systems from scratch.
+            </p>
+            <p style={{ marginTop: '0.5rem' }}>
+              🏆 <strong>Professional Certifications:</strong><br />
+              • SAP Certified - Back-End Developer - ABAP Cloud (<a href="https://credly.com/badges/5ee14d6b-acde-4ec9-9b7f-f5364c999f93" target="_blank" rel="noreferrer" style={{color: 'var(--color-sky)', textDecoration: 'underline'}}>Credly Verification Badge</a>)
+            </p>
           </div>
 
           {/* Interactive Dev Console */}
@@ -247,12 +265,13 @@ function App() {
 {`{
   "name": "Guntuku Abhishek Sai",
   "location": "Vizag/AP, India",
-  "passion": "Building AI interfaces & smart hardware systems",
+  "passion": "Building AI interfaces, SAP ABAP Cloud architectures & smart hardware systems",
   "current_projects": [
-    "Virtual Builder (AI Layout Synthesizer)",
-    "NextFrame AI (Creator Analytics Engine)"
+    "Vehicle Number Plate Detection (Capstone)",
+    "NextFrame AI (Creator Analytics Engine)",
+    "Virtual Builder (AI Layout Synthesizer)"
   ],
-  "mission": "To create state-of-the-art experiences."
+  "mission": "Bridging fast-paced modern web tools with robust enterprise systems."
 }`}
                   </code>
                 </pre>
@@ -262,10 +281,10 @@ function App() {
                   <code>
 {`{
   "domains": [
-    "Computer Vision (real-time stream detection)",
-    "IoT Device Prototyping (Raspberry Pi/Arduino)",
-    "API Routing & Stream Optimization (Flask/FastAPI)",
-    "Micro-interactions & Aesthetics in Web Architecture"
+    "SAP ABAP Cloud & RAP Programming Model",
+    "Computer Vision & Deep Learning (YOLOv8, EasyOCR)",
+    "API Routing & Stream Optimization (FastAPI/Flask)",
+    "Micro-interactions & Web Architecture"
   ],
   "hobbies": [
     "3D modeling in Blender",
@@ -282,11 +301,9 @@ function App() {
   "degree": "B.Tech in Computer Science Engineering",
   "institution": "Lendi Institute of Engineering and Technology",
   "tenure": "2023 - 2027",
-  "key_courses": [
-    "Data Structures & Algorithms",
-    "Database Management Systems",
-    "Object-Oriented Programming",
-    "Computer Networks"
+  "certifications": [
+    "SAP Certified Back-End Developer - ABAP Cloud (Aug 2026)",
+    "Elite Certificate in Human Computer Interaction (NPTEL, 93%)"
   ]
 }`}
                   </code>
